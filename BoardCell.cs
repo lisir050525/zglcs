@@ -9,8 +9,7 @@ public class BoardCell : MonoBehaviour
     public void Initialize(int xPos, int yPos)
     {
         x = xPos;
-        y = yPos;hgjhg
-
+        y = yPos;
         GetComponent<Button>().onClick.AddListener(OnClick);
     }
 
